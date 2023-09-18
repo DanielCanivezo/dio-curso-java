@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        double saldo = 25.000;
+        double saldo = 237.48;
         DecimalFormat formatoMoeda = new DecimalFormat("#,##0.00");
         System.out.println("Por favor, Digite seu nome: ");
         String nome = scanner.nextLine();
